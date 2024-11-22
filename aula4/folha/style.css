@@ -1,0 +1,43 @@
+* {
+    margin: o;
+    padding: 0;
+}
+body {
+    /*background-color: mediuseagreen;*/
+    background: url("../");
+    background-color: cadetblue;
+}
+h1 {
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+p {
+  color: #8a2be2;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 12px;
+  font-variant: normal;
+  padding: 10px 20px;
+  margin: 10px;
+}
+#Subtitulo {
+    text-align: center;
+    color: rgb(167, 26, 167);
+}
+.fonte_funnel_800 {
+    font-family: "Funnel Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+.fundo {
+    background-color: rgb(255, 165, 255
+    );
+    color: rgb(255, 255, 255);
+}
+.box {
+    border: 1px #fff solid;
+    border-radius: 10px;
+    color: #fff;
+    background-color: hsla(303, 100%, 50%, 0.568);
+}
