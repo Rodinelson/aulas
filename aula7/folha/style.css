@@ -4,25 +4,35 @@
 .container-flex {
     /* flex-direction, configura  a direção do eixo. sintaex: column, column-reverse, row, row-reverse */
     display: flex;
+    justify-content: center;
     background: gray;
-    flex-direction: row;
+    height: 300px;
+    align-items: center;
 }
 .container-flex > div {
       background: black;
-      margin: 10px;
-      padding: 20px;
-      font-size: 30px;
+      width: 100px;
+      height: 100px;
       color: aliceblue;
+      text-align: center;
+      
+      
 }
 .container-flex-wrap {
     display: flex;
+    height: 300px;
     flex-wrap: wrap;
     background: gray;
+    align-content: stretch; /*comentario */
+    overflow: scroll;
+    
 }
 .container-flex-wrap > div {
-    background: black;
+    background: rgb(0, 0, 0);
     margin: 10px 5px 10px 5px;
+    width: 80px;
     padding: 20px;
     font-size: 30px;
-    color: #fff;
+    color: aliceblue;
+    text-align: center;
 }
