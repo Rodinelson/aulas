@@ -19,6 +19,9 @@ h1 {
     background-color: aqua;
     color: blueviolet;
 }
+h2 {
+    text-align: center;
+}
 nav ul {
     list-style: none;
     padding: 14px 20px;
@@ -41,4 +44,20 @@ section {
 footer {
     padding: 20px;
     text-align: center;
+}
+.price {
+    color: darkgoldenrod;
+}
+.product p { 
+    margin: 2px;
+}
+.product h2 {
+      color: cadetblue;
+}
+.product {
+    border: 1px solid #0c0a0a;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
 }
