@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: sans-serif;
+}
+#barra-nav {
+    position: sticky;
+    top: 0;
+    z-index: 10px;
+}
+:root {
+    --bg--nava-Bar-claro: #a517ba;
+    --bg--nava-Bar-escuro:#5f1782;
+    --cor-branco: #fff;
+    --cor-traco-titulo:#7b1798;
+}
+.navbar {
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    padding: 0 !important;
+}
+.navbar-brand img {
+    height: 40px;
+    padding-left: 20px;
+}
+.navbar-nav li {
+    padding: 0 10px;
+}
+.navbar-nav li{
+    color:var(--cor-branco)!important;
+    font-weight: 600;
+}
+.fa-bar {
+    color: aliceblue;
+    font-size: 30px !important;
+}
+.navbar-toggler {
+    outline: none;
+}
+/* ------------------------ banner ----------------------- */
+#banner {
+    background-image:linear-gradient(to right, var(--bg--nava-Bar-claro),var(--bg--nava-Bar-escuro));color: var(--cor-branco);
+    padding-top: 5%;
+}
+.titulo_promo {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.botao_play {
+    width: 45px;
+    margin: 20px;
+}
+#banner a {
+    color: var(--cor-branco);
+    text-decoration: none;
+}
+.img-baixa {
+    width: 100%;
+}
+/*--------------------- Servços ------------------- */
+#servico {
+    padding: 80px 0;
+}
+
+.img-servicos {
+    width: 100px;
+    margin-top: 20px;
+}
+.servicos {
+    padding: 20px;
+}
+.servicos h4 {
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+#serviços .btn-primary {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+
+    background-image: linear-gradient(to right, var(--bg--nava-Bar-claro),var(--bg--nava-Bar-escuro), var(--cor-branco));
+}
+.titulo::after {
+    content: '';
+    background: var(--cor-traco-titulo);
+    height: 10px;
+    width: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    transform: translateY(8px);
+}
+.titulo::before {
+    content: '';
+}
